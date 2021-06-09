@@ -26,7 +26,7 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                HAS_MAGIC_EFFECT = 0x005530D0, // 33733
+                HAS_MAGIC_EFFECT = 0x00557380, // 33733
             };
             using Enum_t::Enum_t;
         };

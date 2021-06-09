@@ -53,7 +53,7 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                SELF = 0x01EBEB20, // 514178
+                SELF = 0x01F83200, // 514178
             };
 
         public:

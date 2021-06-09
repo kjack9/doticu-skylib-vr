@@ -20,9 +20,9 @@ namespace doticu_skylib {
             enum : value_type
             {
                 SELF        = 0x01EBD280,   // 514110
-                ALLOCATE    = 0x00C02260,   // 66859
-                REALLOCATE  = 0x00C024B0,   // 66860
-                DEALLOCATE  = 0x00C02560,   // 66861
+                ALLOCATE    = 0x00C3D0E0,   // 66859
+                REALLOCATE  = 0x00C3D330,   // 66860
+                DEALLOCATE  = 0x00C3D3E0,   // 66861
             };
             using Enum_t::Enum_t;
         };

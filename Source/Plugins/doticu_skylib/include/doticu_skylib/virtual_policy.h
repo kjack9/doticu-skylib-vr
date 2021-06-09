@@ -43,7 +43,7 @@ namespace doticu_skylib { namespace Virtual {
         public:
             enum : Word_t
             {
-                BIND_OBJECT = 0x0122DAD0,
+                BIND_OBJECT = 0x01265F80,
             };
             using Enum_t::Enum_t;
         };

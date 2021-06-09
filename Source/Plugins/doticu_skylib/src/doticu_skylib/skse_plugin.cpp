@@ -44,7 +44,7 @@ namespace doticu_skylib {
 
         this->log.OpenRelative(
             CSIDL_MYDOCUMENTS,
-            (std::string("\\My Games\\Skyrim Special Edition\\SKSE\\") + this->plugin_name() + ".log").c_str()
+            (std::string("\\My Games\\Skyrim VR\\SKSE\\") + this->plugin_name() + ".log").c_str()
         );
     }
 

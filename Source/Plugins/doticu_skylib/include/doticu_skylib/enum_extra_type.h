@@ -77,7 +77,7 @@ namespace doticu_skylib {
             // 0x3A
             // 0x3B
             // 0x3C 0x0152C5C0
-            CANNOT_WEAR             = 0x3D, // 
+            CANNOT_WEAR             = 0x3D, //
             POISON                  = 0x3E,
             // 0x3F
             // 0x40 0x0152C4A0
@@ -89,7 +89,7 @@ namespace doticu_skylib {
             // 0x46
             // 0x47
             // 0x48 0x0152C640
-            HOTKEY                  = 0x49, // 0x0152C120
+            HOTKEY                  = 0x49, // 0x015A3470
             // 0x4A
             // 0x4B
             // 0x4C
@@ -149,7 +149,7 @@ namespace doticu_skylib {
             // 0x82
             // 0x83
             // 0x84
-            // 0x85 0x0152C2E0
+            // 0x85 0x015A3630
             // 0x86
             // 0x87 0x0152F4E0
             ALIASES                 = 0x88,
@@ -161,11 +161,11 @@ namespace doticu_skylib {
             OUTFIT                  = 0x8E,
             // 0x8F
             // 0x90 0x0152C320
-            // 0x91 0x0152CA00
+            // 0x91 0x015A3D50
             // 0x92 0x0152CA20
             // 0x93 0x0152CA40
             // 0x94
-            FROM_ALIAS              = 0x95, // 
+            FROM_ALIAS              = 0x95, //
             SHOULD_WEAR             = 0x96, // 0x?
             // 0x97 0x0152CA80
             // 0x98 0x0152CB00
@@ -173,7 +173,7 @@ namespace doticu_skylib {
             // 0x9A 0x0152CB20
             ENCHANTMENT             = 0x9B,
             SOUL_LEVEL              = 0x9C,
-            // 0x9D 0x0152CB60
+            // 0x9D 0x015A3EB0
             // 0x9E
             UNIQUE_ID               = 0x9F,
             FLAGS                   = 0xA0,

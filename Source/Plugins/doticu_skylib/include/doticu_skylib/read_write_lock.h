@@ -16,10 +16,10 @@ namespace doticu_skylib {
         public:
             enum : Word_t
             {
-                LOCK_FOR_READ       = 0x00C072D0, // 66976
-                UNLOCK_FOR_READ     = 0x00C07590, // 66982
-                LOCK_FOR_WRITE      = 0x00C07350, // 66977
-                UNLOCK_FOR_WRITE    = 0x00C075A0, // 66983
+                LOCK_FOR_READ       = 0x00C42150, // 66976
+                UNLOCK_FOR_READ     = 0x00C42410, // 66982
+                LOCK_FOR_WRITE      = 0x00C421D0, // 66977
+                UNLOCK_FOR_WRITE    = 0x00C42420, // 66983
             };
             using Enum_t::Enum_t;
         };

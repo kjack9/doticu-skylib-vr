@@ -76,10 +76,10 @@ namespace doticu_skylib {
             {
                 RTTI                    = 0x01E14AD8, // 513915
 
-                ADD_SPELL               = 0x0062F560, // 37771
-                EVALUATE_PACKAGE        = 0x005DB310, // 36407
-                GET_LEVEL               = 0x005D62E0, // 36344
-                QUEUE_NI_NODE_UPDATE    = 0x00693110, // 39181
+                ADD_SPELL               = 0x00638430, // 37771
+                EVALUATE_PACKAGE        = 0x005E3990, // 36407
+                GET_LEVEL               = 0x005DE910, // 36344
+                QUEUE_NI_NODE_UPDATE    = 0x0069C710, // 39181
                 REMOVE_SPELL            = 0x0062F720, // 37772
             };
             using Enum_t::Enum_t;

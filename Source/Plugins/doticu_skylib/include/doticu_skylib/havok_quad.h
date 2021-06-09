@@ -3,6 +3,7 @@
 */
 
 #pragma once
+#include <xmmintrin.h>
 
 namespace doticu_skylib {
 

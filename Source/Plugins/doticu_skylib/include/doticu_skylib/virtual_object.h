@@ -26,9 +26,9 @@ namespace doticu_skylib { namespace Virtual {
             enum enum_type : Word_t
             {
                 GET_HANDLE      = 0x01233720, // 97463
-                INCREMENT_LOCK  = 0x01234360, // 97468
-                DECREMENT_LOCK  = 0x01234410, // 97469
-                DESTROY         = 0x01233670, // 97462
+                INCREMENT_LOCK  = 0x0126C810, // 97468
+                DECREMENT_LOCK  = 0x0126C8C0, // 97469
+                DESTROY         = 0x0126BB20, // 97462
             };
             using Enum_t::Enum_t;
         };

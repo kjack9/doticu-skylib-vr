@@ -74,22 +74,22 @@ namespace doticu_skylib {
             {
                 RTTI                        = 0x01E13798, // 513899
 
-                CREATE_REFERENCE_HANDLE     = 0x001320F0, // 12193
+                CREATE_REFERENCE_HANDLE     = 0x001428A0, // 12193
                 LOOKUP_REFERENCE_HANDLE_1   = 0x001328A0, // 12203
                 INVALID_REFERENCE_HANDLE    = 0x01EBEABC, // 514164
 
-                IS_STEALABLE                = 0x0029A330, // 19400
+                IS_STEALABLE                = 0x002ABA40, // 19400
 
                 MAY_LAWFULLY_BE_TAKEN_BY    = 0x002A6EE0, // 19805
 
-                GET_NAME                    = 0x002961F0, // 19354
-                GET_THIS_OR_CELL_OWNER      = 0x002A6670, // 19789
+                GET_NAME                    = 0x002A78F0, // 19354
+                GET_THIS_OR_CELL_OWNER      = 0x002B7DE0, // 19789
                 GET_WORLDSPACE              = 0x00299750, // 19389
 
                 SOME_CONTAINER_CHANGES      = 0x001D8E40, // 15802
 
                 PLACE_AT_ME                 = 0x009951F0, // 55672
-                MOVE_TO_OFFSET              = 0x009AE5C0, // 56227
+                MOVE_TO_OFFSET              = 0x009E90E0, // 56227
             };
             using Enum_t::Enum_t;
         };
@@ -364,9 +364,9 @@ namespace doticu_skylib {
         maybe<Location_t*>                  Location();
         maybe<Location_t*>                  Cell_Location();
         maybe<Location_t*>                  Worldspace_Location();
-        
+
         maybe<Worldspace_t*>                Worldspace(Bool_t do_check_cell_locations = true);
-        
+
         Vector_t<some<Location_t*>>         Locations();
         void                                Locations(Vector_t<some<Location_t*>>& results);
         Vector_t<some<Quest_t*>>            Quests();

@@ -119,9 +119,9 @@ namespace doticu_skylib {
         public:
             enum : Word_t
             {
-                HASH_SIZE   = 0x00C06490,
-                HASH_32     = 0x00C064F0,
-                HASH_64     = 0x00C06570,
+                HASH_SIZE   = 0x00C41310,
+                HASH_32     = 0x00C41370,
+                HASH_64     = 0x00C413F0,
             };
             using Enum_t::Enum_t;
         };

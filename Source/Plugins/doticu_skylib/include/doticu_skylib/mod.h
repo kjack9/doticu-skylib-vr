@@ -91,10 +91,10 @@ namespace doticu_skylib {
         public:
             enum
             {
-                SEEK                    = 0x0017D550,   // 13898
-                SEEK_NEXT_SUB_RECORD    = 0x0017D960,   // 13903
-                CURRENT_SUB_RECORD_TYPE = 0x0017D910,   // 13902
-                READ                    = 0x0017DA10,   // 13904
+                SEEK                    = 0x0018D330,   // 13898
+                SEEK_NEXT_SUB_RECORD    = 0x0018D740,   // 13903
+                CURRENT_SUB_RECORD_TYPE = 0x0018D6F0,   // 13902
+                READ                    = 0x0018D7F0,   // 13904
             };
             using Enum_t::Enum_t;
         };

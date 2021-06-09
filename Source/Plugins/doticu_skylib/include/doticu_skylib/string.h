@@ -19,9 +19,9 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                CREATE  = 0x00C28BF0, // 67819
-                DESTROY = 0x00C28D40, // 67822
-                SET     = 0x00C28D60, // 67823
+                CREATE  = 0x00C6DB20, // 67819
+                DESTROY = 0x00C6DC70, // 67822
+                SET     = 0x00C6DC90, // 67823
             };
 
         public:
@@ -82,7 +82,7 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                SET = 0x000F9E90, // 10979
+                SET = 0x00010A44, // 10979
             };
             using Enum_t::Enum_t;
         };
