@@ -68,7 +68,7 @@ namespace doticu_skylib { namespace Virtual {
         public:
             enum enum_type : value_type
             {
-                DESTROY = 0x01237240,
+                DESTROY = 0x0126F6F0,
             };
             using Enum_t::Enum_t;
         };

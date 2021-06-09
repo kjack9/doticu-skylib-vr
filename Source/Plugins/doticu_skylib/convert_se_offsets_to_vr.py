@@ -25,7 +25,7 @@ with open("skyrim_se_to_vr_offsets.txt") as offsets_file:
 
 # collect a list of all files in the target directory
 source_filenames = list()
-directory = 'include\doticu_skylib.edited'
+directory = r'include\doticu_skylib.edited'
 for dirpath, dirnames, files in os.walk(directory):
     for file_name in files:
         source_filenames.append(f"{file_name}")
@@ -44,7 +44,7 @@ for source_filename in source_filenames:
             if match:
                 found_offset = match.group()
                 if found_offset in vr_offsets:
-                    #print(f"{found_offset} is VR already: {str.strip(line)}")
+                    print(f"{found_offset} is VR already: {str.strip(line)}")
                     output.append(line)
                 elif found_offset in offsets.keys():
                     # found a hex value, and an offset pairing. Replace the value and write to output.

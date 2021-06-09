@@ -43,7 +43,7 @@ namespace doticu_skylib {
             {
                 SELF                        = 0x01F82AD8, // 514141
 
-                GET_FORM                    = 0x00194230, // 14461
+                GET_FORM                    = 0x001A3F60, // 14461
                 FORM_IDS_TO_FORMS           = 0x01F88B18, // 514351
                 FORM_IDS_TO_FORMS_LOCK      = 0x01F88FB0, // 514360
                 EDITOR_IDS_TO_FORMS         = 0x01F88B20, // 514352

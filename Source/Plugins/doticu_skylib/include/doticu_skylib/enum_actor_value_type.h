@@ -194,7 +194,7 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                FROM_ABSTRACT_NAME = 0x003E1450, // 26570 (probably will move to ActorValueList type, as named in SKSE, when we implement it)
+                FROM_ABSTRACT_NAME = 0x003F0E00, // 26570 (probably will move to ActorValueList type, as named in SKSE, when we implement it)
             };
             using Enum_t::Enum_t;
         };

@@ -21,7 +21,7 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                RESIZE = 0x00920360, // 53105
+                RESIZE = 0x0095AA60, // 53105
             };
             using Enum_t::Enum_t;
         };

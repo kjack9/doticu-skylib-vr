@@ -48,8 +48,8 @@ namespace doticu_skylib { namespace Virtual {
         public:
             enum : value_type
             {
-                COPY    = 0x01236E50, // 97509
-                DESTROY = 0x01236D10, // 97508
+                COPY    = 0x0126F300, // 97509
+                DESTROY = 0x0126F1C0, // 97508
             };
             using Enum_t::Enum_t;
         };

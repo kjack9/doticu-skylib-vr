@@ -75,8 +75,8 @@ namespace doticu_skylib {
                 RTTI                        = 0x01E13798, // 513899
 
                 CREATE_REFERENCE_HANDLE     = 0x001428A0, // 12193
-                LOOKUP_REFERENCE_HANDLE_1   = 0x001328A0, // 12203
-                INVALID_REFERENCE_HANDLE    = 0x01EBEABC, // 514164
+                LOOKUP_REFERENCE_HANDLE_1   = 0x00143050, // 12203
+                INVALID_REFERENCE_HANDLE    = 0x01F8319C, // 514164
 
                 IS_STEALABLE                = 0x002ABA40, // 19400
 
@@ -84,11 +84,11 @@ namespace doticu_skylib {
 
                 GET_NAME                    = 0x002A78F0, // 19354
                 GET_THIS_OR_CELL_OWNER      = 0x002B7DE0, // 19789
-                GET_WORLDSPACE              = 0x00299750, // 19389
+                GET_WORLDSPACE              = 0x002AAE50, // 19389
 
                 SOME_CONTAINER_CHANGES      = 0x001D8E40, // 15802
 
-                PLACE_AT_ME                 = 0x009951F0, // 55672
+                PLACE_AT_ME                 = 0x009CFD10, // 55672
                 MOVE_TO_OFFSET              = 0x009E90E0, // 56227
             };
             using Enum_t::Enum_t;

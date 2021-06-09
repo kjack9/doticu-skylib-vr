@@ -50,7 +50,7 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                GET = 0x00345ED0, // 23624
+                GET = 0x00355790, // 23624
                 SET = 0x00345B80, // 23623
             };
         };

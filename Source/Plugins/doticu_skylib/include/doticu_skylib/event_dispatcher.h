@@ -28,9 +28,9 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                ADD_HANDLER     = 0x0056B600, // 34381
-                REMOVE_HANDLER  = 0x00423B70, // 28367
-                DISPATCH_EVENT  = 0x00177DC0, // 13805
+                ADD_HANDLER     = 0x00571C00, // 34381
+                REMOVE_HANDLER  = 0x004336C0, // 28367
+                DISPATCH_EVENT  = 0x00187CD0, // 13805
             };
 
         public:
