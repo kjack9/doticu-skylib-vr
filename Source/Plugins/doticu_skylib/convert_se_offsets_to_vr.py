@@ -1,13 +1,14 @@
 #!/usr/bin/env python
-# imports
 import re
 import sys
 import os
 
 from pprint import pprint
 
-# the offsets dictionary that will store offsets from SE to VR
+# the offsets dictionaries that will store offsets from SE to VR
 offsets = dict()
+se_offsets = list()
+vr_offsets = list()
 
 # use the offsets file, which is just a space-deliminated list of SE->VR offsets
 with open("skyrim_se_to_vr_offsets.txt") as offsets_file:
@@ -15,6 +16,9 @@ with open("skyrim_se_to_vr_offsets.txt") as offsets_file:
         offset_pair = line.split(' ')
         se_offset = offset_pair[0].strip()
         vr_offset = offset_pair[1].strip()
+        
+        se_offsets.append(se_offset)
+        vr_offsets.append(vr_offset)
         
         print(f"{se_offset}->{vr_offset}")
         offsets[se_offset] = vr_offset
@@ -34,12 +38,15 @@ for source_filename in source_filenames:
     with open(f'{directory}\\{source_filename}') as source_file:
         for line in source_file:
             line = line.rstrip()
-            
+
             # match if a hex value is found
             match = re.search(r"0x[\dA-F]{8}", line)
             if match:
                 found_offset = match.group()
-                if found_offset in offsets.keys():
+                if found_offset in vr_offsets:
+                    #print(f"{found_offset} is VR already: {str.strip(line)}")
+                    output.append(line)
+                elif found_offset in offsets.keys():
                     # found a hex value, and an offset pairing. Replace the value and write to output.
                     line = line.replace(found_offset, offsets[found_offset])
                     print(f"{found_offset}->{offsets[found_offset]}: {str.strip(line)}")
