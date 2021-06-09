@@ -1,3 +1,6 @@
+# Work in Progress!
+This repo contains partially-converted and non-working code. Do not use it for anything except review so you can make your own changes.
+
 # Skylib
 A static library for The Elder Scrolls V: Skyrim SE and SKSE plugins. Following in the footsteps of SKSE and CommonLibSSE, Skylib reveals native C++ data structures and functions, and additionaly provides new algorithms to create more stable and efficient plugins.
 
@@ -9,11 +12,9 @@ Skylib provides the common functionality behind my other works: NPC Lookup, SkyP
 - Windows 7/10
 - Visual Studio
 - Windows 8.1 SDK
-- Visual Studio 2015 (v140) Toolset
-- SKSE 2.0.17+
-- Skyrim SE 1.5.97
-
-*The older SDK and Toolset match the original enviroment that the Skyrim SE executable and SKSE solution are built with.*
+- Visual Studio 2019 (v142) Toolset
+- Skyrim VR 1.4.15
+- SKSE 2.0.12+
 
 ### Building
 - You only need the following projects in the SKSE solution: common_vc14, skse64_common, and skse64. The SKSE solution is to remain separate from your own solution.

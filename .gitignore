@@ -1,5 +1,10 @@
 /.vs
 /.VsCodeCounter
-*.sh
+/Example/.vs
+/Example/My Plugin/x64/
+/Example/x64/
+/Example/My Plugin.dll
 /Source/Plugins/doticu_skylib/x64
 /Source/Plugins/doticu_skylib/include/doticu_skylib.edited
+
+*.sh
