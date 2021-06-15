@@ -25,7 +25,7 @@ namespace doticu_skylib {
         public:
             enum : value_type
             {
-                RTTI = 0x01E14648, // 684825
+                RTTI = 0x01EDA5C8, // 684825
             };
             using Enum_t::Enum_t;
         };

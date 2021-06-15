@@ -72,7 +72,7 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                RTTI                        = 0x01E13798, // 513899
+                RTTI                        = 0x01ED96B8, // 513899
 
                 CREATE_REFERENCE_HANDLE     = 0x001428A0, // 12193
                 LOOKUP_REFERENCE_HANDLE_1   = 0x00143050, // 12203

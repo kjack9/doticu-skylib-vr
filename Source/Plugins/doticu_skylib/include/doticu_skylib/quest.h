@@ -46,7 +46,7 @@ namespace doticu_skylib {
 
     }
 
-    class Story_Form_t : public Form_t // BGSStoryManagerTreeForm, 
+    class Story_Form_t : public Form_t // BGSStoryManagerTreeForm,
     {
     public:
         virtual ~Story_Form_t(); // 00
@@ -75,7 +75,7 @@ namespace doticu_skylib {
         public:
             enum enum_type : value_type
             {
-                RTTI = 0x01E13938, // 513910
+                RTTI = 0x01ED9858, // 513910
             };
 
         public:
